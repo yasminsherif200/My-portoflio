@@ -1,0 +1,10 @@
+:root {
+    --bg-dark: #0E1A20;
+    --accents: #FFC16C;
+    --light-orange: #EDE0D5;
+    --brown: #514536;
+}
+
+body {
+    background-color: var(--bg-dark);
+}
