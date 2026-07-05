@@ -2,9 +2,104 @@
     --bg-dark: #0E1A20;
     --accents: #FFC16C;
     --light-orange: #EDE0D5;
+    --text-light: #D6C4B0;
     --brown: #514536;
 }
 
 body {
     background-color: var(--bg-dark);
+}
+
+.navbar {
+    border-bottom: 1px solid var(--brown);
+}
+
+.navbar-brand {
+    color: var(--accents);
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.nav-link {
+    color: var(--text-light);
+}
+
+a:hover {
+    color: var(--accents);
+    text-decoration: none;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.time-line {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: var(--brown);
+    left: 50%;
+    top: 0;
+    z-index: 0;
+}
+
+.time-dot {
+    width: 12px;
+    height: 12px;
+    background-color: var(--accents);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 10px var(--accents);
+}
+
+h1 {
+    color: var(--light-orange);
+    font-family: "Space Grotesk", sans-serif;
+}
+
+h4 {
+    color: var(--accents);
+    font-family: "Space Grotesk", sans-serif;
+}
+
+p {
+    color: var(--text-light);
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.btn-brown {
+    background-color: var(--brown);
+    border: none;
+    border-radius: 0;
+}
+
+.btn a {
+    color: var(--text-light);
+}
+
+.btn a:hover {
+    color: var(--accents);
+}
+
+.btn-outline-accent {
+    border-color: var(--accents);
+    border-radius: 0;
+    margin-left: 5px;
+}
+
+.btn-outline-accent a {
+    color: var(--accents);
+}
+
+.btn-outline-accent:hover {
+    background-color: var(--brown);
+}
+
+.imge img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 3px solid var(--accents);
+    box-shadow: 0 0 10px var(--accents);
 }
