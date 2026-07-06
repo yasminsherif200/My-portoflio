@@ -53,12 +53,17 @@ a:hover {
     box-shadow: 0 0 10px var(--accents);
 }
 
-h1 {
+#about {
+    margin-top: 10px;
+    margin-bottom: 110px;
+}
+
+h1, .uni {
     color: var(--light-orange);
     font-family: "Space Grotesk", sans-serif;
 }
 
-h4 {
+h4, .edu {
     color: var(--accents);
     font-family: "Space Grotesk", sans-serif;
 }
@@ -102,4 +107,49 @@ p {
     border-radius: 50%;
     border: 3px solid var(--accents);
     box-shadow: 0 0 10px var(--accents);
+}
+
+#Education {
+    margin-top: 10px;
+    margin-bottom: 110px;
+    padding-top: 30px;
+}
+
+.grade {
+    color: #74D8C5;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.skills {
+    background-color: #15120e;
+    border: 2px solid #765c3d;
+    border-radius: none;
+    padding: 30px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.skills p {
+    color: var(--accents);
+}
+
+.skills li {
+    color: var(--text-light);
+}
+
+.horizontal-line {
+    position: absolute;
+    width: 80%;
+    background-color: #765c3d;
+    top: 46%;
+    padding: 0.2px;
+    margin: 2px;
+    z-index: 0;
+}
+
+.skills .row{
+    padding: 10px;
 }
