@@ -153,3 +153,42 @@ ul {
 .skills .row{
     padding: 10px;
 }
+
+#Projects {
+    margin-top: 10px;
+    margin-bottom: 110px;
+    padding-top: 30px;
+}
+
+.proj-1 {
+    margin-top: 10px;
+    margin-bottom: 110px;
+    padding-top: 30px;
+}
+
+.tech {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.tech h1 {
+    color: var(--accents);
+}
+
+.badge {
+    font-family: "Space Grotesk", sans-serif;
+    color: var(--light-orange);
+    border: 1px solid var(--light-orange);
+    margin: 0 3px;
+    padding: 5px;
+}
+
+.describe {
+    font-family: "Space Grotesk", sans-serif;
+    margin: 3px;
+}
+
+.proj-2 {
+    margin-top: 10px;
+    margin-bottom: 110px;
+    padding-top: 30px;
+}
