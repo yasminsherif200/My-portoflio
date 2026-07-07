@@ -223,4 +223,61 @@ ul {
     color: var(--accents);
 }
 
+#Contact {
+    margin: 150px 0;
+    background-color: #15120e;
+    border: 1px solid #765c3d;
+    padding: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    z-index: 1;
+}
 
+.contact h1 {
+    color: var(--accents);
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.contact p {
+    color: var(--light-orange);
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.contact span {
+    color: var(--text-light);
+    padding: 5px 0 5px 5px;
+}
+
+.email, .number, .location {
+    padding: 3px;
+}
+
+.fa-envelope, .fa-phone {
+    color: var(--text-light);
+}
+
+label {
+    color: var(--accents);
+}
+
+form {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.form-group input, 
+.form-group textarea {
+    background-color: var(--bg-dark);
+    border: none;
+    border-bottom: 2px solid var(--accents);
+}
+
+.cntct-btn {
+    width: 100%;
+    border-radius: 0;
+    background-color: var(--accents);
+    color: var(--bg-dark);
+}
+
+.cntct-btn:hover {
+    box-shadow: 0 0 10px var(--accents);
+}
+ 
