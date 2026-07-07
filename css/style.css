@@ -192,3 +192,35 @@ ul {
     margin-bottom: 110px;
     padding-top: 30px;
 }
+
+.projs {
+    margin-top: 10px;
+    margin-bottom: 110px;
+    padding-top: 30px;
+    display: flex;
+    gap: 140px;
+}
+
+.sq {
+    background-color: #15120e;
+    border: 1px solid #765c3d;
+    padding: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    /* margin: 0 40px; */
+}
+
+.tstack p {
+    color: var(--accents);
+}
+
+.tstack {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 0;
+}
+
+.fa-solid {
+    color: var(--accents);
+}
+
+
