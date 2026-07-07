@@ -47,7 +47,7 @@ The site is built with plain HTML, CSS, and Bootstrap-based layout components, m
 The homepage introduces Yasmin Sherif as a software engineer and briefly describes her interests and focus areas in building practical software solutions.
 
 ### Education
-This section highlights her academic background in Computer Science and Artificial Intelligence at Cairo University, along with her GPA and core technical skills.
+This section highlights her academic background in Computer Science and Artificial Intelligence at Cairo University, along with GPA and core technical skills.
 
 ### Projects
 The portfolio features several projects such as:
